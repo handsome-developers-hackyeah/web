@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
 import LoginPage from './components/pages/LoginPage';
+import BazaWiedzy from './components/BazaWiedzy/BazaWiedzy';
+import Header from './components/Landing/Header/Header';
 
 import GlobalStyle from './GlobalStyles';
 import { ThemeProvider } from 'styled-components';
@@ -17,18 +19,22 @@ const router = createBrowserRouter([
     path: '/login',
     element: <LoginPage />,
   },
+  {
+    path: 'baza-wiedzy',
+    element: <BazaWiedzy />,
+  },
 ]);
 
 const theme = {
-  primaryColor: '#FFC266',
-  grayLight: '#EEEEEE',
-  gray: '#C7C7C7',
+  gray: '#585858',
+  brightGreen: '#73C9A5',
 };
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      <Header />
       <RouterProvider router={router} />
     </ThemeProvider>
   </React.StrictMode>
