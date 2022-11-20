@@ -5,9 +5,9 @@ const HeroText = () => {
     <HeroTextStyled>
       <h1>Czas to skompostować!</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan
-        neque sit amet leo efficitur pellentesque. neque sit amet leo efficitur
-        pellentesque.
+        Comptee to kompleksowe narzędzie dostarczające szczegółowe informacje
+        odnośnie ilości kompostu powstającego wśród mieszkańców oraz edukujące
+        społeczeństwo w zakresie korzystania z kompostowników.
       </p>
     </HeroTextStyled>
   );
