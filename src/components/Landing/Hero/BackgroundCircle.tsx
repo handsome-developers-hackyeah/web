@@ -10,6 +10,6 @@ export default BackgroundCircle;
 const BackgeoundCircleStyled = styled.img`
   position: absolute;
   top: 0;
-  left: 40%;
-  width: 1400px;
+  left: 50%;
+  width: 1900px;
 `;

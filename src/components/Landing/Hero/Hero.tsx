@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import BackgroundCircle from './BackgroundCircle';
 import HeroText from './HeroText';
 
-import plant from '../../../assets/images/Plant.png';
+import plant from '../../../assets/images/plant.png';
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
       <BackgroundCircle />
       <div className='hero-container'>
         <HeroText />
-        <img src={plant} />
+        <img src='/images/plant.png' />
       </div>
     </HeroeStyled>
   );
