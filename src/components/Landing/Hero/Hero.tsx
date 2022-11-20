@@ -40,5 +40,9 @@ const HeroeStyled = styled.section`
         display: block;
       }
     }
+
+    @media (min-width: 900px) {
+      margin-top: 0;
+    }
   }
 `;

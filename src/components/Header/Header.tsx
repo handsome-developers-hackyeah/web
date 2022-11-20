@@ -48,7 +48,7 @@ const HeaderStyled = styled.nav`
   display: flex;
   width: 100vw;
   max-width: 100vw;
-  padding-inline: 10%;
+  padding-inline: 1%;
   transition: all 0.2s ease-in-out;
 
   &.scrolled {
@@ -59,5 +59,9 @@ const HeaderStyled = styled.nav`
   &.unScrolled {
     padding-block: 40px;
     background: transparent;
+  }
+
+  @media (min-width: 900px) {
+    padding-inline: 10%;
   }
 `;

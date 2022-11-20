@@ -24,13 +24,13 @@ const HeroTextStyled = styled.div`
   text-align: center;
 
   h1 {
-    font-size: 70px;
+    font-size: 40px;
   }
 
   p {
     padding-top: 30px;
     width: 80%;
-    font-size: 25px;
+    font-size: 15px;
     margin: auto;
   }
 
@@ -39,10 +39,15 @@ const HeroTextStyled = styled.div`
     text-align: left;
     padding-left: 10%;
 
+    h1 {
+      font-size: 70px;
+    }
+
     p {
       padding-left: 10px;
       padding-top: 30px;
       margin: 0;
+      font-size: 25px;
     }
   }
 `;

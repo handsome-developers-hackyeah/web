@@ -13,6 +13,7 @@ const NavLogo = () => {
 const NavLogoStyled = styled.img`
   width: 185px;
   z-index: 1;
+  margin-right: auto;
 
   @media (min-width: 900px) {
     width: 180px;

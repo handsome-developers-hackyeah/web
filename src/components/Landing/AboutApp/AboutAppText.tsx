@@ -26,12 +26,12 @@ const AboutUsTextStyled = styled.div`
   text-align: center;
 
   h1 {
-    font-size: 55px;
+    font-size: 40px;
     margin-bottom: 20px;
   }
 
   p {
-    font-size: 25px;
+    font-size: 15px;
     width: 100%;
   }
 
@@ -39,7 +39,12 @@ const AboutUsTextStyled = styled.div`
     width: 50%;
     text-align: right;
 
+    h1 {
+      font-size: 55px;
+    }
+
     p {
+      font-size: 25px;
       margin-left: auto;
     }
   }
