@@ -21,14 +21,15 @@ const AboutProjectTextStyled = styled.div`
   text-align: center;
 
   h1 {
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 20px;
+    margin: auto;
   }
 
   p {
-    font-size: 30px;
+    font-size: 15px;
     width: 100%;
-    margin-right: auto;
+    margin: auto;
   }
 
   @media (min-width: 1200px) {
@@ -36,9 +37,16 @@ const AboutProjectTextStyled = styled.div`
     text-align: left;
     margin: auto;
 
+    h1 {
+      font-size: 60px;
+      margin: 0;
+    }
+
     p {
       font-size: 30px;
       width: 70%;
+      margin-right: auto;
+      margin-left: 0;
     }
   }
 `;

@@ -19,7 +19,6 @@ const AboutProjectStyled = styled.section`
   align-items: center;
   height: 100vh;
   width: 100vw;
-  padding-left: 10%;
 
   img {
     width: 80%;
@@ -28,6 +27,7 @@ const AboutProjectStyled = styled.section`
 
   @media (min-width: 1200px) {
     flex-direction: row;
+    padding-left: 10%;
 
     img {
       width: 55vw;
