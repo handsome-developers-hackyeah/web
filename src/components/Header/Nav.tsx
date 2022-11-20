@@ -8,7 +8,9 @@ const Nav = () => {
         <Link to='/baza-wiedzy'>Baza wiedzy</Link>
       </li>
       <li className='filled'>
-        <Link to='/baza-wiedzy'>Pobierz Apke</Link>
+        <Link to='https://play.google.com/store/games?hl=pl&pli=1'>
+          Pobierz Apke
+        </Link>
       </li>
     </NavStyled>
   );
